@@ -7,10 +7,10 @@ export default function CTA() {
         className="py-20 bg-blue-500 text-white text-center"
       >
         <h2 className="text-3xl md:text-5xl font-bold mb-6">
-          Let's Work Together!
+          Let&apos;s Work Together!
         </h2>
         <p className="text-lg md:text-xl mb-8">
-          I'm always open to new opportunities and collaborations. Feel free to reach out.
+          I&apos;m always open to new opportunities and collaborations. Feel free to reach out.
         </p>
         <Link
           href="../Contact"

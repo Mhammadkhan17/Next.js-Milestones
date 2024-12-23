@@ -6,7 +6,7 @@ export default function About() {
         <div className="container mx-auto text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">About Me</h2>
           <p className="text-lg md:text-xl mb-4">
-            I'm a software developer with expertise in modern web frameworks like
+            I&apos;m a software developer with expertise in modern web frameworks like
             React, Next.js, and Tailwind CSS. I specialize in building responsive
             and user-friendly applications.
           </p>

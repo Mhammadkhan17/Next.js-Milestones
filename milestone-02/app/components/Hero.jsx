@@ -5,7 +5,7 @@ export default function Hero() {
         className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white text-center"
       >
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Hi, I'm <span className="text-yellow-300">Hammad</span>
+          Hi, I&apos;m <span className="text-yellow-300">Hammad</span>
         </h1>
         <p className="text-lg md:text-2xl mb-8">
           A passionate developer building modern web experiences.

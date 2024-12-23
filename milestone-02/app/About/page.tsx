@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function AboutContent() {
   return (
     <section
@@ -10,9 +11,11 @@ export default function AboutContent() {
       <div className="flex flex-col md:flex-row md:items-center md:space-x-10">
         {/* Left Section: Image */}
         <div className="md:w-1/2 flex justify-center">
-          <img
+          <Image
             src="/portrait.png"
             alt="AI-generated-portrait"
+            width={288}
+            height={288}
             className="rounded-lg shadow-lg shadow-black w-72 h-72 object-cover md:w-96 md:h-96"
           />
         </div>
@@ -20,10 +23,10 @@ export default function AboutContent() {
         {/* Right Section: About Text */}
         <div className="md:w-1/2 mt-10 md:mt-0">
           <h2 className="text-3xl font-semibold mb-4">
-            Hi, I'm <span className="text-blue-500">Hammad</span>
+            Hi, I&apos;m <span className="text-blue-500">Hammad</span>
           </h2>
           <p className="text-lg mb-6 leading-relaxed">
-            I'm a passionate developer with expertise in creating modern web
+            I&apos;m a passionate developer with expertise in creating modern web
             applications. I specialize in technologies like React, Next.js, and
             Tailwind CSS to build responsive, user-friendly, and performant
             solutions.
